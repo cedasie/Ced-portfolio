@@ -14,7 +14,7 @@ export default function Home() {
       <Layout>
         <div className="content">
           <section className="hero">
-            <img src="../assets" alt="" />
+            <img className="opacity-30" src="../assets" alt="" />
             <div className="hero-content">
               <h1>
                 Passionate
@@ -48,7 +48,7 @@ export default function Home() {
                     <button
                       type="button"
                       title="Start buying"
-                      className="w-full py-3 px-6 text-center rounded-xl transition bg-gray-700 shadow-xl hover:bg-gray-600 active:bg-gray-700 focus:bg-gray-600 sm:w-max"
+                      className="w-full py-3 px-6 text-center rounded-xl transition bg-gray-500 shadow-xl hover:bg-gray-600 active:bg-gray-600 focus:bg-gray-500 sm:w-max"
                     >
                       <a
                         href="https://github.com/cedasie"
@@ -68,7 +68,7 @@ export default function Home() {
                     <button
                       type="button"
                       title="more about"
-                      className="w-full order-first py-3 px-6 text-center rounded-xl bg-gray-100 transition hover:bg-gray-200 active:bg-gray-300 focus:bg-gray-200 sm:w-max"
+                      className="w-full order-first py-3 px-6 text-center rounded-xl bg-blue-200 transition hover:bg-blue-300 active:bg-blue-300 focus:bg-blue-300 sm:w-max"
                     >
                       <a
                         href="https://twitter.com/Ced_Create"
@@ -93,40 +93,6 @@ export default function Home() {
         </div>
         {/*  */}
         {/*  */}
-        {/* <div className="footer">
-          <footer className="foot-icon">
-            <ul>
-              <p>Follow Me</p>
-              <li>
-                <a
-                  href="https://twitter.com/Ced_Create"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    className="icon-svg"
-                    src={TwitterLogo}
-                    alt="Follow me on Twitter"
-                  />
-                </a>
-              </li>
-              <p>See My Repo</p>
-              <li>
-                <a
-                  href="https://github.com/cedasie"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    className="icon-svg"
-                    src={GithubLogo}
-                    alt="See my Repo"
-                  />
-                </a>
-              </li>
-            </ul>
-          </footer>
-        </div> */}
       </Layout>
     </>
   )
