@@ -33,7 +33,7 @@ export default function Home() {
         </div>
         {/*  */}
         {/*  */}
-        <div class="bg-white/50 rounded-r-full mb-16">
+        <div className="bg-white/50 rounded-r-full mb-16">
           <footer className="py-16 mx-auto">
             <div className="m-auto px-6 text-gray-500">
               <div className="justify-center text-center gap-6 md:text-left md:flex lg:items-center">

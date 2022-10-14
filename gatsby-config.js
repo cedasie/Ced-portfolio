@@ -5,5 +5,9 @@
  */
 
 module.exports = {
-  plugins: ["gatsby-plugin-postcss"],
+  siteMetadata: {
+    title: "Cédric PortFolio",
+    author: "Cédric",
+  },
+  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-react-helmet"],
 }
