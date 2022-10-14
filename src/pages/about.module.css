@@ -1,0 +1,25 @@
+.heroContent {
+  margin-bottom: 5rem;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 4px;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 30px;
+}
+
+.imgSize {
+  width: 80px;
+}
+
+.imgSizeBigger {
+  width: 120px;
+}
+
+@media (max-width: 600px) {
+  .gridContainer {
+    grid-template-columns: auto auto auto;
+  }
+}
